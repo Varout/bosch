@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>BatchGDPRCleaner</members>
+        <members>BatchGDPRCleanerTest</members>
+        <members>UtilityGDPRCleaner</members>
+        <members>UtilityGDPRCleanerTest</members>
+        <members>ScheduleGDPRCleaner</members>
+        <members>ScheduleGDPRCleanerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <!--    Standard & Custom SObjects  -->
+        <members>Debug_Log__c</members>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Case</members>
+        <!--    Custom Metadata Types   -->
+        <members>GDPR_Account_Field__mdt</members>
+        <members>GDPR_Case_Field__mdt</members>
+        <members>GDPR_Contact_Field__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <!--
+    <types>
+        //  Account fields
+        <members>GDPR_Account_Field__mdt.</members>
+        //  Case fields
+        <members>GDPR_Case_Field__mdt.</members>
+        //  Contact fields
+        <members>GDPR_Contact_Field__mdt.</members>
+        <name>CustomMetadata</name>
+    </types>
+    -->
+    <version>54.0</version>
+</Package>
